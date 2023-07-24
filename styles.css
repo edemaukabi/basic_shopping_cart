@@ -1,0 +1,52 @@
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    padding-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.cart-item .price {
+    font-weight: bold;
+}
+
+.quantity {
+    display: flex; 
+    align-items: center;
+}
+
+.quantity button {
+    cursor: pointer;
+    background-color: #f7f7f7;
+    border: none
+    
+}
+
+.total {
+    text-align: right;
+    margin-top: 20px;
+}
+
+#total-amount {
+    font-weight: bold;
+}
+
+.count {
+    margin-left: 2px;
+    margin-right: 2px;
+}
